@@ -11,4 +11,12 @@ Also links to django documentation, tutorial, and community
 
 
 Question 3 
+At /, It displays a 404 Error Page, because the URL configuration did not match any URL patterns defined in the URL configurations.
+You can access /admin and /polls
 
+At /polls, it returns a page with "Hello, world. You're at the polls index."
+Just like how we defined it within the polls/views.py index function
+
+
+
+Question 4 
