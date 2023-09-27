@@ -1,0 +1,14 @@
+Question 1 
+
+
+Question 2 
+The manage.py is a program that offers CLI commands to interact with out django project.
+With the runserver argument, it starts up a web server. 
+This web server is meant for development environment; not production. 
+
+For now, the webpage showing a rocket taking off.
+Also links to django documentation, tutorial, and community 
+
+
+Question 3 
+
