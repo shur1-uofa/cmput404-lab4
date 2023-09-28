@@ -32,3 +32,10 @@ Migrations allow:
 
 
 Question 5 
+After logging into the admin website, I see:
+- Authentication and Authorization for users and groups
+- My Polls app with the Questions model 
+
+To get custom models to appear in the page, write:
+    admin.site.register( MODEL_CLASS_NAME )
+Access the admin module and call site.register passing in the class name
