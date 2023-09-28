@@ -39,3 +39,18 @@ After logging into the admin website, I see:
 To get custom models to appear in the page, write:
     admin.site.register( MODEL_CLASS_NAME )
 Access the admin module and call site.register passing in the class name
+
+
+
+Question 6
+/polls/38/ - Just a text saying "You're looking at question 38."
+/polls/38/results - "You're looking at the results of question 38."
+/polls/38/vote - "You're voting on question 38."
+As you would expect in the method body of each associated view 
+
+To consume strings instead of integer, supply this url pattern.
+    "<str:args>/"
+So maybe:
+    path("<str:question_id>", views.detail, name="detail")
+
+
