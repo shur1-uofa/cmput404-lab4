@@ -20,3 +20,15 @@ Just like how we defined it within the polls/views.py index function
 
 
 Question 4 
+Mirgrations are essentially a save of the changes made to the models (in database schema)
+It's saved as files, and managed by a database managed by the Django framework.
+
+We use the makemirgrations django command to save migrations and apply them with migrate djangon command
+
+Migrations allow:
+    upgrading databases live, without losing data 
+    essentially have a VCS for your database
+
+
+
+Question 5 
