@@ -63,3 +63,8 @@ However with template tags referencing urls, we only need to change one place: u
 
 
 Question 8 
+Generic views just abstract out common patterns in web development.
+This has the benefits:
+    - Shorter code 
+    - Faster to write
+    - Don't have to re-invent the wheel
