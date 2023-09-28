@@ -54,3 +54,12 @@ So maybe:
     path("<str:question_id>", views.detail, name="detail")
 
 
+
+Question 7
+It adds coupling and violates DRY principle.
+Any hardcoded URL that needs to change will have to be changed in every place it has been hard coded in.
+However with template tags referencing urls, we only need to change one place: urls.py
+
+
+
+Question 8 
